@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 void generate_invisible_text(int length) {
     for (int i = 0; i < length; i++) {
         putchar(' ');
     }
     putchar('\n');
 }
-
 int main() {
     int length;
 
